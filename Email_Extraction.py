@@ -33,6 +33,17 @@ if add and pas:
         mail.login(add, pas)
         mail.select(box)
         result, data = mail.search(None, f'SINCE {start_date.strftime("%d-%b-%Y")}', f'BEFORE {end_date.strftime("%d-%b-%Y")}')
+        
+        #result is a variable that will store the result of the search operation. This variable typically contains the search status.
+        '''he possible values that result can take after using IMAP4.search are as follows:
+        OK: The search operation was successful, and the requested email messages have been found. This typically means that the search criteria were matched.
+
+NO: The search operation was not successful, and no email messages matching the search criteria were found.
+
+BAD: The search operation was not recognized or understood by the server, indicating an issue with the search query.
+
+BYE: The server has closed the connection, which might be due to various reasons, such as an error or the server's unavailability.'''
+        #data is a variable that will store the UIDs (unique identifiers) of the email messages that match the search criteria.
 
         # Parse the email messages and extract information
         email_list = []
