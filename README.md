@@ -40,7 +40,7 @@ This project is open-source and provided under the terms of the included [LICENS
 If you have any questions, feedback, or encounter issues while using Email_extraction, please don't hesitate to reach out:
 
 - [GitHub Profile](https://github.com/Sidra-Tul-Muntaha-Ghouri)
-- [Email](mailto:your.email@example.com)
+- [Email](mailto:sidratulmuntaha135@gmail.com)
 
 I value your input and look forward to enhancing Email_extraction to meet your data extraction needs effectively.
 
