@@ -29,7 +29,7 @@ Follow these steps:
 
 5. Enjoy the efficiency and convenience of email extraction with Email_extraction!
 
-   Or you can have my medium article for step by step instructions from [here](https://sidratulmuntahaghouri.medium.com/get-your-emails-in-excel-b33f4e8b28cc)
+   Or you can read my medium article for step by step instructions from [here](https://sidratulmuntahaghouri.medium.com/get-your-emails-in-excel-b33f4e8b28cc)
 
 ## License
 
