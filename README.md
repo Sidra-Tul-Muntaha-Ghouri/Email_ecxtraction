@@ -1,5 +1,13 @@
 # Email_extraction
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Usage](#usage)
+- [License](#license)
+- [Contact](#contact)
+
 ## Overview
 
 Email_extraction is a Python project developed for email address extraction from text documents and web pages, with a specific focus on Gmail accounts. This tool serves a range of purposes, from automating data collection to conducting email marketing campaigns and contact information extraction. The project is designed to work seamlessly with Gmail accounts and offers a user-friendly Streamlit interface for ease of use.
