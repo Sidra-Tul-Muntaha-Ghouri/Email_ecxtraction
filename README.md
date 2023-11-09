@@ -1,4 +1,4 @@
-# Email_extraction
+# Email Extraction
 
 ## Table of Contents
 
@@ -10,13 +10,13 @@
 
 ## Overview
 
-Email_extraction is a Python project developed for email address extraction from text documents and web pages, with a specific focus on Gmail accounts. This tool serves a range of purposes, from automating data collection to conducting email marketing campaigns and contact information extraction. The project is designed to work seamlessly with Gmail accounts and offers a user-friendly Streamlit interface for ease of use.
+Email Extraction is a Python project developed for extracting emails from Gmail accounts and saving them as a csv file. The project is designed to work seamlessly with Gmail accounts and offers a user-friendly Streamlit interface for ease of use.
 
 ## Features
 
 - **Email Extraction Script**: The repository includes the core Python script, `Email_Extraction.py`, which is responsible for the email extraction process. This script allows you to retrieve email data from your Gmail account efficiently.
 
-- **Streamlit Web Interface**: The project leverages Streamlit, a popular Python library for creating web applications, to provide an intuitive and interactive web interface. Users can input their email address and app password, select the mailbox (e.g., Inbox, Starred, Important, Sent), and specify a date range for email extraction.
+- **Streamlit Web Interface**: The project leverages Streamlit, a popular Python library for creating web applications, to provide an intuitive and interactive web interface. Users can input their email address and app password, select the mailbox (e.g., Inbox, Starred, Important, Sent), and specify a date range.
 
 - **Data Analysis**: The extracted email data is processed, and key information such as subject, sender, date, and email body is collected. This data is then presented in tabular format for analysis and export.
 
@@ -41,7 +41,7 @@ Follow these steps:
 
 ## License
 
-This project is open-source and provided under the terms of the included [LICENSE](LICENSE) file. Feel free to use, modify, and distribute the code in accordance with the license.
+This project is open-source and provided under the terms of the included [LICENSE](LICENSE) file. Feel free to use, modify, and distribute the code in accordance with the license and credits.
 
 ## Contact
 
