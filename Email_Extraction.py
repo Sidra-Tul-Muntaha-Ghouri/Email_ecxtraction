@@ -11,8 +11,8 @@ today = datetime.today().date()
 
 # Set Streamlit page configuration
 st.set_page_config(layout = 'wide', page_title='Email Extraction', page_icon='📧')
-st.title('Email Extraction')
-st.header('Email Navigator')
+st.title('Email Extraction App')
+#st.header('Email Navigator')
 
 # Input fields for email address and app password
 add = st.text_input('Your Email Address')
