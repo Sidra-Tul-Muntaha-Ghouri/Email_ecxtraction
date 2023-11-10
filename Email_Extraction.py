@@ -20,8 +20,8 @@ with st.sidebar:
     # Add content to the sidebar
     st.write('This is a Streamlit app.')
         # Add clickable image
-    image_url = "https://example.com/your_image.png"
-    st.markdown(f"[![Click me!]({image_url})](https://example.com)")
+    image_url = "https://github.com/Sidra-Tul-Muntaha-Ghouri/LOGOS/blob/main/linkedin%2050x50%20pi.png"
+    st.markdown(f"[![Click me!]({image_url})](https://www.linkedin.com/in/sidra-tul-muntaha-ghouri/)")
 
 # Input fields for email address and app password
 add = st.text_input('Your Email Address')
