@@ -14,6 +14,12 @@ st.set_page_config(layout = 'wide', page_title='Email Extraction', page_icon='ðŸ
 st.title('Email Extraction App')
 #st.header('Email Navigator')
 
+with st.sidebar:
+    st.title('About')
+
+    # Add content to the sidebar
+    st.write('This is a Streamlit app.')
+
 # Input fields for email address and app password
 add = st.text_input('Your Email Address')
 pas = st.text_input('Your App Password', type='password')  # Use type='password' to hide the input
