@@ -21,7 +21,7 @@ with st.sidebar:
     st.write('This is a Streamlit app.')
         # Add clickable image
     image_url = "https://github.com/Sidra-Tul-Muntaha-Ghouri/Email_extraction/blob/main/linkedin%2050x50%20pi.png"
-    st.markdown(f"[![Click me!]({image_url})](https://www.linkedin.com/in/sidra-tul-muntaha-ghouri/)")
+    st.markdown(f"[!({image_url})](https://www.linkedin.com/in/sidra-tul-muntaha-ghouri/)")
 
 # Input fields for email address and app password
 add = st.text_input('Your Email Address')
