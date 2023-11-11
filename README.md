@@ -1,4 +1,4 @@
-# Email Extraction
+# Email Extraction Application
 
 ## Table of Contents
 
