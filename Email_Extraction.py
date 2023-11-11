@@ -19,7 +19,12 @@ with st.sidebar:
 
     # Add content to the sidebar
     st.write('Email Extraction is a simple Web app developed for extracting emails from Gmail accounts and saving them as a csv file. The project is designed to work seamlessly with Gmail accounts and offers a user-friendly Streamlit interface for ease of use..')
-        # Add clickable image
+    
+    st.title('How to use?')
+
+    # Add content to the sidebar
+    st.write('To use this application ')
+# Add clickable image
     #image_url = "https://github.com/Sidra-Tul-Muntaha-Ghouri/Email_extraction/blob/main/linkedin%2050x50%20pi.png"
     #st.markdown(f"[!({image_url})](https://www.linkedin.com/in/sidra-tul-muntaha-ghouri/)")
 
