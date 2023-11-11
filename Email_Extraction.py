@@ -21,9 +21,11 @@ with st.sidebar:
     st.write('Email Extraction is a simple Web app developed for extracting emails from Gmail accounts and saving them as a csv file. The project is designed to work seamlessly with Gmail accounts and offers a user-friendly Streamlit interface for ease of use..')
     
     st.title('How to use?')
-
-    # Add content to the sidebar
-    st.write('To use this application ')
+    st.write("""
+    - Enter your Gmail email address and app password. 
+    - You can then select a mailbox from the dropdown list.
+    - Set a date range, and click the "Get Emails" button to initiate the extraction process.
+    The extracted email data will be displayed in a tabular format within the Streamlit web application. You can explore, analyze, and download the data as needed. """)
 # Add clickable image
     #image_url = "https://github.com/Sidra-Tul-Muntaha-Ghouri/Email_extraction/blob/main/linkedin%2050x50%20pi.png"
     #st.markdown(f"[!({image_url})](https://www.linkedin.com/in/sidra-tul-muntaha-ghouri/)")
