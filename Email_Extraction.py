@@ -25,6 +25,7 @@ with st.sidebar:
     - Enter your Gmail email address and app password. 
     - You can then select a mailbox from the dropdown list.
     - Set a date range, and click the "Get Emails" button to initiate the extraction process.
+    \\
     The extracted email data will be displayed in a tabular format within the Streamlit web application. You can explore, analyze, and download the data as needed. """)
 # Add clickable image
     #image_url = "https://github.com/Sidra-Tul-Muntaha-Ghouri/Email_extraction/blob/main/linkedin%2050x50%20pi.png"
