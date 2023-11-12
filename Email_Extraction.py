@@ -30,11 +30,10 @@ with st.sidebar:
     - The extracted email data will be displayed in a tabular format and can be downloaded via **Download** button. 
     - Remember to **Logout** after using the app.    
     \\
-    \\
-    (Note that the **App password** is different from the usual passwords. Click [here](https://medium.com/@sidratulmuntahaghouri/get-your-emails-in-excel-b33f4e8b28cc) to get step by step process of generating app password.""")
+    (Note that the **App password** is different from the usual passwords. Click [here](https://medium.com/@sidratulmuntahaghouri/get-your-emails-in-excel-b33f4e8b28cc) to get step by step process of generating app password.)""")
     #st.write("""The extracted email data will be displayed in a tabular format within the Streamlit web application. You can explore, analyze, and download the data as needed. """)
 
-
+    st.write("**Let's Connect!** [Linkedin](https://www.linkedin.com/in/sidra-tul-muntaha-ghouri/) & [Medium](https://sidratulmuntahaghouri.medium.com/)")          
 # Input fields for email address and app password
 add = st.text_input('Your Email Address')
 pas = st.text_input('Your App Password', type='password')  # Using type='password' to hide the input
