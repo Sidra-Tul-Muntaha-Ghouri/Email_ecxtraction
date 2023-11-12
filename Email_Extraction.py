@@ -13,27 +13,31 @@ today = datetime.today().date()
 st.set_page_config(layout = 'wide', page_title='Email Extraction', page_icon='📧')
 st.title('Email Extraction App')
 #st.header('Email Navigator')
-
+st.subheader(':grey[Thank you for using this application!]\n\n :grey[**To enhance your experience, I kindly encourage you to read the instructions available in the sidebar**].',divider='rainbow')
 with st.sidebar:
+  
     st.title('Introduction')
 
-    # Add content to the sidebar
-    st.write('Email Extraction is a simple Web app developed for extracting emails from Gmail accounts and saving them as a csv file. The project is designed to work seamlessly with Gmail accounts and offers a user-friendly Streamlit interface for ease of use..')
+    # Adding content to the sidebar
+    st.write('Email Extraction is a simple Web application, developed for extracting emails from Gmail accounts and saving them as a csv file. The project is designed to work seamlessly with Gmail accounts and offers a user-friendly Streamlit interface for ease of use.')
     
+#2nd heading in the sidebar
     st.title('How to use?')
     st.write("""
-    - Enter your Gmail email address and app password. 
-    - You can then select a mailbox from the dropdown list.
-    - Set a date range, and click the "Get Emails" button to initiate the extraction process.
+    - Enter your Gmail **Email address** and **App password**.
+    - You can then select a **mailbox** from the dropdown list.
+    - Set a date range, and click the **Get Emails** button to initiate the extraction process.
+    - The extracted email data will be displayed in a tabular format and can be downloaded via **Download** button. 
+    - Remember to **Logout** after using the app.    
     \\
-    The extracted email data will be displayed in a tabular format within the Streamlit web application. You can explore, analyze, and download the data as needed. """)
-# Add clickable image
-    #image_url = "https://github.com/Sidra-Tul-Muntaha-Ghouri/Email_extraction/blob/main/linkedin%2050x50%20pi.png"
-    #st.markdown(f"[!({image_url})](https://www.linkedin.com/in/sidra-tul-muntaha-ghouri/)")
+    \\
+    (Note that the **App password** is different from the usual passwords. Click [here](https://medium.com/@sidratulmuntahaghouri/get-your-emails-in-excel-b33f4e8b28cc) to get step by step process of generating app password.""")
+    #st.write("""The extracted email data will be displayed in a tabular format within the Streamlit web application. You can explore, analyze, and download the data as needed. """)
+
 
 # Input fields for email address and app password
 add = st.text_input('Your Email Address')
-pas = st.text_input('Your App Password', type='password')  # Use type='password' to hide the input
+pas = st.text_input('Your App Password', type='password')  # Using type='password' to hide the input
 mailbox = ['Inbox', 'Starred', 'Important', 'Sent']
 box = st.selectbox('Select Mail Box', mailbox)
 start_date = st.date_input("Select a start date:", key="start", max_value=today)
@@ -53,14 +57,11 @@ if add and pas:
         result, data = mail.search(None, f'SINCE {start_date.strftime("%d-%b-%Y")}', f'BEFORE {end_date.strftime("%d-%b-%Y")}')
         
         #result is a variable that will store the result of the search operation. This variable typically contains the search status.
-        '''he possible values that result can take after using IMAP4.search are as follows:
-        OK: The search operation was successful, and the requested email messages have been found. This typically means that the search criteria were matched.
-
-NO: The search operation was not successful, and no email messages matching the search criteria were found.
-
-BAD: The search operation was not recognized or understood by the server, indicating an issue with the search query.
-
-BYE: The server has closed the connection, which might be due to various reasons, such as an error or the server's unavailability.'''
+        # The possible values that result can take after using IMAP4.search are as follows:
+        # OK: The search operation was successful, and the requested email messages have been found. This typically means that the search criteria were matched.
+        # NO: The search operation was not successful, and no email messages matching the search criteria were found.
+        # BAD: The search operation was not recognized or understood by the server, indicating an issue with the search query.
+        # BYE: The server has closed the connection, which might be due to various reasons, such as an error or the server's unavailability.
         #data is a variable that will store the UIDs (unique identifiers) of the email messages that match the search criteria.
 
         # Parse the email messages and extract information
@@ -111,13 +112,20 @@ BYE: The server has closed the connection, which might be due to various reasons
             csv = convert_df(df)
 
             st.download_button(
-                "Press to Download",
+                "Download",
                 csv,
-                "file.csv",
+                "Emails.csv",
                 "text/csv",
                 key='download-csv'
                 )
-                
+        lgout = st.button('Logout')
+        if lgout:
+            add = None  # Set add to None to clear the email address
+            password = None  # Set password to None to clear the password.
+            st.write('Thanks For Using 🙂 Have a nice day!')
+            mail.close()
+            mail.logout()        
+            st.balloons()
          
     except imaplib.IMAP4.error as e:
         st.error('Authentication failed. Please check your email address and password.')
