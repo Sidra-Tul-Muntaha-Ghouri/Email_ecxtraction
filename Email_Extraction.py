@@ -19,7 +19,7 @@ with st.sidebar:
     st.title('Introduction')
 
     # Adding content to the sidebar
-    st.write('Email Extraction is a simple Web application, developed for extracting emails from Gmail accounts and saving them as a csv file. The project is designed to work seamlessly with Gmail accounts and offers a user-friendly Streamlit interface for ease of use.')
+    st.write('Email Extraction is a simple Web application, developed for extracting emails from Gmail accounts and saving them as a .csv file. The project is designed to work seamlessly with Gmail accounts and offers a user-friendly Streamlit interface for ease of use.')
     
 #2nd heading in the sidebar
     st.title('How to use?')
@@ -31,7 +31,9 @@ with st.sidebar:
     - Remember to **Logout** after using the app.    
     \\
     (Note that the **App password** is different from the usual passwords. Click [here](https://medium.com/@sidratulmuntahaghouri/get-your-emails-in-excel-b33f4e8b28cc) to get step by step process of generating app password.)""")
-    #st.write("""The extracted email data will be displayed in a tabular format within the Streamlit web application. You can explore, analyze, and download the data as needed. """)
+    st.title('Objective')
+    st.write("""The main objective of this project is to download emails as .csv file, to be stored as records or be used for further analysis.""")
+  #st.write("""The extracted email data will be displayed in a tabular format within the Streamlit web application. You can explore, analyze, and download the data as needed. """)
 
     st.write("**Let's Connect!** [Linkedin](https://www.linkedin.com/in/sidra-tul-muntaha-ghouri/) & [Medium](https://sidratulmuntahaghouri.medium.com/)")          
 # Input fields for email address and app password
