@@ -39,6 +39,10 @@ Follow these steps:
 
    Or you can read my medium article for step by step instructions from [here](https://sidratulmuntahaghouri.medium.com/get-your-emails-in-excel-b33f4e8b28cc)
 
+## Future Work
+
+I will implement a spam email detection algorithm to assess the percentage of spam emails among the total number of emails.
+
 ## License
 
 This project is open-source and provided under the terms of the included [LICENSE](LICENSE) file. Feel free to use, modify, and distribute the code in accordance with the license and credits.
@@ -47,6 +51,7 @@ This project is open-source and provided under the terms of the included [LICENS
 
 If you have any questions, feedback, or encounter issues while using Email_extraction, please don't hesitate to reach out:
 
+- [LinkedIn Profile](https://www.linkedin.com/in/sidra-tul-muntaha-ghouri/)
 - [GitHub Profile](https://github.com/Sidra-Tul-Muntaha-Ghouri)
 - [Email](mailto:sidratulmuntaha135@gmail.com)
 
