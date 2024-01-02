@@ -5,6 +5,7 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Usage](#usage)
+- [Future Work](#Future-Work)
 - [License](#license)
 - [Contact](#contact)
 
