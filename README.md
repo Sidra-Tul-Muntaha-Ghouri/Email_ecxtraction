@@ -58,5 +58,3 @@ If you have any questions, feedback, or encounter issues while using Email_extra
 
 I value your input and look forward to enhancing Email_extraction to meet your data extraction needs effectively.
 
-Happy email extraction!
-
