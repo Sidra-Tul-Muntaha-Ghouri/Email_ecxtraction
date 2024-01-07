@@ -4,6 +4,7 @@
 
 - [Overview](#overview)
 - [Features](#features)
+- [Deployment](#deployment)
 - [Usage](#usage)
 - [Future Work](#Future-Work)
 - [License](#license)
@@ -11,7 +12,7 @@
 
 ## Overview
 
-Email Extraction is a Python project developed for extracting emails from Gmail accounts and saving them as a csv file. The project is designed to work seamlessly with Gmail accounts and offers a user-friendly Streamlit interface for ease of use.
+Email Extraction is a Python project developed for extracting emails from Gmail accounts and saving them as a CSV file. The project is designed to work seamlessly with Gmail accounts and offers a user-friendly Streamlit interface for ease of use.
 
 ## Features
 
@@ -22,6 +23,10 @@ Email Extraction is a Python project developed for extracting emails from Gmail 
 - **Data Analysis**: The extracted email data is processed, and key information such as subject, sender, date, and email body is collected. This data is then presented in tabular format for analysis and export.
 
 - **Data Export**: The project enables users to export the extracted email data as a CSV file, making it easy to further analyze, visualize, or use the data for various purposes.
+
+## Deployment
+
+This project is deployed on Streamlit and can be accessed through the following link: https://emailextraction.streamlit.app/
 
 ## Usage
 
@@ -38,7 +43,7 @@ Follow these steps:
 
 5. Enjoy the efficiency and convenience of email extraction with Email_extraction!
 
-   Or you can read my medium article for step by step instructions from [here](https://sidratulmuntahaghouri.medium.com/get-your-emails-in-excel-b33f4e8b28cc)
+   Or you can read my medium article for step-by-step instructions from [here](https://sidratulmuntahaghouri.medium.com/get-your-emails-in-excel-b33f4e8b28cc)
 
 ## Future Work
 
@@ -50,7 +55,7 @@ This project is open-source and provided under the terms of the included [LICENS
 
 ## Contact
 
-If you have any questions, feedback, or encounter issues while using Email_extraction, please don't hesitate to reach out:
+If you have any questions, or feedback, or encounter issues while using Email_extraction, please don't hesitate to reach out:
 
 - [LinkedIn Profile](https://www.linkedin.com/in/sidra-tul-muntaha-ghouri/)
 - [GitHub Profile](https://github.com/Sidra-Tul-Muntaha-Ghouri)
